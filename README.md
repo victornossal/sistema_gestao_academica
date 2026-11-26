@@ -14,7 +14,6 @@ Ferramentas utilizadas:
 - PostgreSQL: Sistema Gerenciador de Banco de Dados Relacional (SGBDR) utilizado na implementação.
 - DBeaver/pgAdmin 4: Interface gráfica para manipulação e gerenciamento do banco.
 
----
 ## Sumário
 * [Capítulo 1: Levantamento de requisitos e regras de negócio](#capítulo-1-levantamento-de-requisitos-e-regras-de-negócio)
 * [Capítulo 2: Identificação de entidades, relacionamentos e atributos](#capítulo-2-identificação-de-entidades-relacionamentos-e-atributos)
@@ -25,7 +24,6 @@ Ferramentas utilizadas:
 * [Capítulo 7: Implementação do banco de dados](#capítulo-7-implementação-do-banco-de-dados)
 * [Capítulo 8: Consultas no banco de dados](#capítulo-8-consultas-no-banco-de-dados)
 * [Capítulo 9: Conclusão](#capítulo-9-conclusão)
----
 
 
 # Capítulo 1: Levantamento de requisitos e regras de negócio
