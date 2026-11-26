@@ -1,4 +1,6 @@
 # Projeto de Banco de Dados - Sistema de Gestão Acadêmica
+**Autor: Victor A.M. Nossal**
+
 Este projeto prático foi desenvolvido como parte dos estudos de modelagem de dados do canal Bóson Treinamentos no Youtube. O objetivo principal é projetar, modelar, implementar, analisar e documentar um banco de dados relacional completo para o gerenciamento básico de uma instituição de ensino.
 
 Não se trata de uma cópia idêntica do curso, mas de uma expansão: introduzi ajustes próprios em estruturas, nomenclaturas e regras para consolidar e aprofundar o aprendizado.
@@ -11,6 +13,19 @@ Ferramentas utilizadas:
 - brModelo: Criação dos modelos conceitual e lógico.
 - PostgreSQL: Sistema Gerenciador de Banco de Dados Relacional (SGBDR) utilizado na implementação.
 - DBeaver/pgAdmin 4: Interface gráfica para manipulação e gerenciamento do banco.
+
+---
+## Sumário
+* [Capítulo 1: Levantamento de requisitos e regras de negócio](#capítulo-1-levantamento-de-requisitos-e-regras-de-negócio)
+* [Capítulo 2: Identificação de entidades, relacionamentos e atributos](#capítulo-2-identificação-de-entidades-relacionamentos-e-atributos)
+* [Capítulo 3: Modelagem conceitual](#capítulo-3-modelagem-conceitual)
+* [Capítulo 4: Normalização](#capítulo-4-normalização)
+* [Capítulo 5: Dicionário de dados](#capítulo-5-dicionário-de-dados)
+* [Capítulo 6: Modelagem lógica](#capítulo-6-modelagem-lógica)
+* [Capítulo 7: Implementação do banco de dados](#capítulo-7-implementação-do-banco-de-dados)
+* [Capítulo 8: Consultas no banco de dados](#capítulo-8-consultas-no-banco-de-dados)
+* [Capítulo 9: Conclusão](#capítulo-9-conclusão)
+---
 
 
 # Capítulo 1: Levantamento de requisitos e regras de negócio
