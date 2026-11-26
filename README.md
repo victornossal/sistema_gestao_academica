@@ -345,7 +345,7 @@ professor_disciplina (entidade associativa):
 
 ## 3.4 Modelo conceitual
 
-Abaixo apresentamos o diagrama conceitual completo no brModelo.
+Abaixo apresentamos o diagrama conceitual completo no brModelo, que também pode ser acessado em [/brmodelo/modelo_conceitual.brM3](/brmodelo/modelo_conceitual.brM3).
 
 ![21](imagens/21.png)
 
@@ -427,7 +427,7 @@ Precisamos analisar o relacionamento entre a entidade aluno e endereco_aluno:
 
 ## 4.4 Modelo conceitual normalizado
 
-Abaixo apresentamos o diagrama conceitual completo normalizado no brModelo.
+Abaixo apresentamos o diagrama conceitual completo normalizado no brModelo, que também pode ser acessado em [/brmodelo/modelo_conceitual_normalizado.brM3](/brmodelo/modelo_conceitual_normalizado.brM3).
 
 ![28](imagens/28.png)
 
@@ -572,9 +572,11 @@ Abaixo, detalhamos o dicionário técnico de cada tabela normalizada.
 
 # Capítulo 6: Modelagem lógica
 
-Ao longo dos capítulos anteriores, percorremos todo o ciclo de vida inicial do projeto: partimos das regras de negócio informais do levantamento de requisitos (Capítulo 1), mapeamos as entidade e seus atributos (Capítulo 2), desenhamos os modelos conceituais com as cardinalidades e resolvemos os relacionamentos de muitos para muitos com entidades associativas (Capítulo 3), e aplicamos as três formas normais para reduzir a redundância e evitar anomalias (Capítulo 4). Com todas as tabelas devidamente normalizadas e estruturadas no dicionário de dados (Capítulo 5), chegamos à modelagem lógica. 
+Ao longo dos capítulos anteriores, percorremos todo o ciclo de vida inicial do projeto: partimos das regras de negócio informais do levantamento de requisitos (Capítulo 1), mapeamos as entidade e seus atributos (Capítulo 2), desenhamos os modelos conceituais com as cardinalidades e resolvemos os relacionamentos de muitos para muitos com entidades associativas (Capítulo 3), e aplicamos as três formas normais para reduzir a redundância e evitar anomalias (Capítulo 4).
 
-Enquanto o modelo conceitual representava a visão abstrata, o modelo lógico relacional traduz essa estrutura para o formato de tabelas relacionais. Abaixo, apresentamos o diagrama do modelo lógico do banco de dados.
+Com todas as tabelas devidamente normalizadas e estruturadas no dicionário de dados (Capítulo 5), chegamos à modelagem lógica. 
+
+Enquanto o modelo conceitual representava a visão abstrata, o modelo lógico relacional traduz essa estrutura para o formato de tabelas relacionais. Abaixo, apresentamos o diagrama do modelo lógico do banco de dados, que também pode ser acessado em [/brmodelo/modelo_logico.brM3](/brmodelo/modelo_logico.brM3).
 
 ![30](imagens/30.png)
 
@@ -589,7 +591,7 @@ Neste capítulo, dividimos a implementação em duas grandes frentes essenciais:
 
 ## 7.1 Criação da estrutura (DDL)
 
-A seguir, apresentamos o script completo para criação da estrutura física, ordenado estrategicamente para respeitar as dependências entre as tabelas.
+A seguir, apresentamos o script completo para criação da estrutura física, ordenado estrategicamente para respeitar as dependências entre as tabelas. O código pode ser acessado em [/scripts/1_script_ddl.sql](/scripts/1_script_ddl.sql).
 
 ```SQL
 /*
@@ -770,7 +772,7 @@ CREATE TABLE endereco_aluno (
 
 ## 7.2 População do banco (DML)
 
-A seguir, apresentamos o script completo para população do banco de dados. Observação, todos os dados apresentados são fictícios!
+A seguir, apresentamos o script completo para população do banco de dados. O código pode ser acessado em [/scripts/2_script_dml.sql](/scripts/2_script_dml.sql). Observação, todos os dados apresentados são fictícios!
 
 ```sql
 /*
@@ -1327,7 +1329,7 @@ Por fim, após a implementação da estrutura e dos dados, vamos realizar consul
 12. Exibir o nome, sobrenome e código do aluno, para uma disciplina, e sua respectiva nota, acrescentando uma coluna condicional que avalie o status de aprovação (considerando nota $\ge$ 8.0 como critério de aprovação).
 13. Listar os 3 alunos com maior média geral de notas por curso.
 
-A seguir, apresentamos o script completo contendo as perguntas e suas respectivas respostas.
+A seguir, apresentamos o script completo contendo as perguntas e suas respectivas respostas. O código pode ser acessado em [/scripts/3_script_dql.sql](/scripts/3_script_dql.sql).
 
 ```sql
 /*
