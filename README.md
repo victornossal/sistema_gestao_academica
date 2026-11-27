@@ -3,7 +3,7 @@
 
 Este projeto prático foi desenvolvido como parte dos estudos de modelagem de dados do canal Bóson Treinamentos no Youtube. O objetivo principal é projetar, modelar, implementar, analisar e documentar um banco de dados relacional completo para o gerenciamento básico de uma instituição de ensino.
 
-Não se trata de uma cópia idêntica do curso, mas de uma expansão: introduzi ajustes próprios em estruturas, nomenclaturas e regras para consolidar e aprofundar o aprendizado.
+Para consolidar o aprendizado na prática, organizei todo o desenvolvimento em uma sequência lógica seguindo o ciclo de vida de um banco de dados, além de realizar ajustes na modelagem e elaborar consultas analíticas próprias.
 
 Por fim, este repositório foi criado para servir tanto como peça de portfólio quanto como um guia passo a passo para iniciantes que desejam entender como um banco de dados nasce a partir de regras de negócios.
 
